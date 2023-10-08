@@ -2,7 +2,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Nothing+You+Could+Do&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -12,12 +12,12 @@ Fonts are separated by a & */
   --accent2-color: #7091B6;
 
   /*Color Palette URL below*/
-  "https://coolors.co/1c2631-adbfd5-edf4f9-7091b6-848b9b-5c5c65"
+  /*Pallette URL: "https://coolors.co/1c2631-adbfd5-edf4f9-7091b6-848b9b-5c5c65"*/
 
   /* change the values below to your chosen font(s) */
-  --heading-font: 'Salsa', cursive;
+  --heading-font: 'Barlow Condensed', sans-serif;
+  --paragraph-font:'Nothing You Could Do', cursive;
 
-  --paragraph-font: 'Roboto', sans-serif;
 
 
   /* these colors below should be chosen from among your palette colors above */

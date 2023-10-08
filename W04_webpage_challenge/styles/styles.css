@@ -1,0 +1,42 @@
+body{
+    background-color: pink;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+h1.hover{
+    color: black;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+ol{
+    color: black;
+    text-align: left;
+    padding-left: 320px;
+}
+
+img{
+    width: 20%;
+    margin-left: 370px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 1em;
+}
+
+footer{
+    color: black;
+    text-align: center;
+}
+
