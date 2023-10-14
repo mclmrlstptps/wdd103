@@ -1,0 +1,33 @@
+
+
+header {
+    width: 100%;
+}
+
+main {
+    background-color: grey;
+}
+
+img.desk {
+    display: inline-block;
+    width: 32% ;
+    shape-outside: circle(32%);
+    border-color: charcoal;
+    border-width: 10px;
+}
+
+img.graphic {
+    display: inline-block;
+    width: 32%;
+    shape-outside: circle(32%);
+    border-color: charcoal;
+    border-width: 10px;
+}
+
+img.person {
+    display: inline-block;
+    width: 32%;
+    shape-outside: circle(32%);
+    border-color: charcoal;
+    border-width: 10px;
+}
