@@ -187,7 +187,7 @@ a.join{
 }
 a.join:hover{
     background-color: #396E94;
-    color: #396E94;
+    color: #ADBFD5;
 }
 
 .msg{
@@ -282,8 +282,6 @@ div.background{
 div.social{
     padding-top: 15px;
 }
-
-
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
