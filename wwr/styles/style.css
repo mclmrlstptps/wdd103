@@ -283,6 +283,50 @@ div.social{
     padding-top: 15px;
 }
 
+/* page 2 on rivers */
+
+h3 {
+    font-family: 'Nothing You Could Do', sans-serif;
+    text-align: center;
+}
+
+section.idaho {
+    text-align: center;
+    font-family: "Barlow Condensed", "century gothic", sans-serif;
+}
+
+section.utah_canyon {
+    text-align: center;
+    font-family: "Barlow Condensed", "century gothic", sans-serif;
+}
+
+section.arizona_canyon{
+    text-align: center;
+    font-family: "Barlow Condensed", "century gothic", sans-serif;
+}
+
+img.idaho_river {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    border: 5px solid #1C2631;
+}
+
+img.utah_canyon {
+    grid-column: 5/7;
+    grid-row: 2/3;
+    border: 5px solid #1C2631;
+}
+
+img.arizona_canyon {
+    grid-column: 8/10;
+    grid-row: 2/3;
+    border: 5px solid #1C2631;
+}
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
