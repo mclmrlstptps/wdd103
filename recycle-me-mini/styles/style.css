@@ -183,27 +183,26 @@ p a:hover {
 
 
 .home-grid-how {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
     background-color: #ECD4BC;
 }
 
 .how {
-    grid-template-columns: 1/4;
-    grid-template-rows: 3/4;
+    align-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-/* Start of slideshow on How page */
-* {box-sizing:border-box}
+/* Start of slideshow on How page
+/*{box-sizing:border-box}*/
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
-  grid-template-columns: 1/4;
-  grid-template-rows: 1/3;
+  align-self: center;
 }
 
 /* Hide the images by default */
@@ -284,7 +283,3 @@ p a:hover {
   from {opacity: .4}
   to {opacity: 1}
 }
-
-
-
-
